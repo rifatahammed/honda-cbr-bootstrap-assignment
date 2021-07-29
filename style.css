@@ -7,8 +7,8 @@ body {
 .top-banner {
   background-color: #264653;
 }
-.panda-btn-buy-now {
-  background-image: linear-gradient(to bottom, #ff589b 0%, #ff4b92 100%);
+.btn-purchase {
+  background-color: #e76f51;
   color: white;
   border-radius: 8px;
   padding: 9px 25px;
