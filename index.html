@@ -29,7 +29,53 @@
           </h6>
           <br />
           <div>
-            <button class="panda-btn-buy-now">Buy Now</button>
+            <button
+              class="panda-btn-buy-now"
+              data-toggle="modal"
+              data-target="#exampleModalCenter"
+            >
+              Buy Now
+            </button>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModalCenter"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">
+                      Modal title
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">...</div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Save changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -348,7 +394,187 @@
       </div>
       <!-- bonus part 1 end  -->
       <!-- bonus part 2 start  -->
-      <div></div>
+      <div>
+        <section>
+          <div class="container py-5">
+            <header class="text-center">
+              <div class="row">
+                <div class="col-lg-7 mx-auto">
+                  <h1>Bike Club pricing table</h1>
+                  <p>
+                    Join for glory<br />
+                    <a
+                      href="https://www.banglamotor.net/motorcycle-price-in-bangladesh.html"
+                      target="_blank"
+                      class="text-reset"
+                      >All bike updates</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </header>
+
+            <div class="row text-center align-items-end">
+              <!-- Pricing Table-->
+              <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="bg-white p-5 rounded-lg shadow">
+                  <h1 class="h6 text-uppercase font-weight-bold mb-4">Basic</h1>
+                  <h2 class="h1 font-weight-bold">
+                    $199<span class="text-small font-weight-normal ml-2"
+                      >/ month</span
+                    >
+                  </h2>
+
+                  <div class="custom-separator my-4 mx-auto bg-primary"></div>
+
+                  <ul class="list-unstyled my-5 text-small text-left">
+                    <li class="mb-3">
+                      <i class="fa fa-check mr-2 text-primary"></i> Lorem ipsum
+                      dolor sit amet
+                    </li>
+                    <li class="mb-3">
+                      <i class="fa fa-check mr-2 text-primary"></i> Sed ut
+                      perspiciatis
+                    </li>
+                    <li class="mb-3">
+                      <i class="fa fa-check mr-2 text-primary"></i> At vero eos
+                      et accusamus
+                    </li>
+                    <li class="mb-3 text-muted">
+                      <i class="fa fa-times mr-2"></i>
+                      <del>Nam libero tempore</del>
+                    </li>
+                    <li class="mb-3 text-muted">
+                      <i class="fa fa-times mr-2"></i>
+                      <del>Sed ut perspiciatis</del>
+                    </li>
+                    <li class="mb-3 text-muted">
+                      <i class="fa fa-times mr-2"></i>
+                      <del>Sed ut perspiciatis</del>
+                    </li>
+                  </ul>
+                  <a
+                    href="#"
+                    class="btn btn-primary btn-block p-2 shadow rounded-pill"
+                    >Subscribe</a
+                  >
+                </div>
+              </div>
+              <!-- END -->
+
+              <!-- Pricing Table-->
+              <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="bg-white p-5 rounded-lg shadow">
+                  <h1 class="h6 text-uppercase font-weight-bold mb-4">Pro</h1>
+                  <h2 class="h1 font-weight-bold">
+                    $399<span class="text-small font-weight-normal ml-2"
+                      >/ month</span
+                    >
+                  </h2>
+
+                  <div class="custom-separator my-4 mx-auto bg-primary"></div>
+
+                  <ul
+                    class="
+                      list-unstyled
+                      my-5
+                      text-small text-left
+                      font-weight-normal
+                    "
+                  >
+                    <li class="mb-3">
+                      <i class="fa fa-check mr-2 text-primary"></i> Lorem ipsum
+                      dolor sit amet
+                    </li>
+                    <li class="mb-3">
+                      <i class="fa fa-check mr-2 text-primary"></i> Sed ut
+                      perspiciatis
+                    </li>
+                    <li class="mb-3">
+                      <i class="fa fa-check mr-2 text-primary"></i> At vero eos
+                      et accusamus
+                    </li>
+                    <li class="mb-3">
+                      <i class="fa fa-check mr-2 text-primary"></i> Nam libero
+                      tempore
+                    </li>
+                    <li class="mb-3">
+                      <i class="fa fa-check mr-2 text-primary"></i> Sed ut
+                      perspiciatis
+                    </li>
+                    <li class="mb-3 text-muted">
+                      <i class="fa fa-times mr-2"></i>
+                      <del>Sed ut perspiciatis</del>
+                    </li>
+                  </ul>
+                  <a
+                    href="#"
+                    class="btn btn-primary btn-block p-2 shadow rounded-pill"
+                    >Subscribe</a
+                  >
+                </div>
+              </div>
+              <!-- END -->
+
+              <!-- Pricing Table-->
+              <div class="col-lg-4">
+                <div class="bg-white p-5 rounded-lg shadow">
+                  <h1 class="h6 text-uppercase font-weight-bold mb-4">
+                    Enterprise
+                  </h1>
+                  <h2 class="h1 font-weight-bold">
+                    $899<span class="text-small font-weight-normal ml-2"
+                      >/ month</span
+                    >
+                  </h2>
+
+                  <div class="custom-separator my-4 mx-auto bg-primary"></div>
+
+                  <ul
+                    class="
+                      list-unstyled
+                      my-5
+                      text-small text-left
+                      font-weight-normal
+                    "
+                  >
+                    <li class="mb-3">
+                      <i class="fa fa-check mr-2 text-primary"></i> Lorem ipsum
+                      dolor sit amet
+                    </li>
+                    <li class="mb-3">
+                      <i class="fa fa-check mr-2 text-primary"></i> Sed ut
+                      perspiciatis
+                    </li>
+                    <li class="mb-3">
+                      <i class="fa fa-check mr-2 text-primary"></i> At vero eos
+                      et accusamus
+                    </li>
+                    <li class="mb-3">
+                      <i class="fa fa-check mr-2 text-primary"></i> Nam libero
+                      tempore
+                    </li>
+                    <li class="mb-3">
+                      <i class="fa fa-check mr-2 text-primary"></i> Sed ut
+                      perspiciatis
+                    </li>
+                    <li class="mb-3">
+                      <i class="fa fa-check mr-2 text-primary"></i> Sed ut
+                      perspiciatis
+                    </li>
+                  </ul>
+                  <a
+                    href="#"
+                    class="btn btn-primary btn-block p-2 shadow rounded-pill"
+                    >Subscribe</a
+                  >
+                </div>
+              </div>
+              <!-- END -->
+            </div>
+          </div>
+        </section>
+      </div>
       <!-- bonus part 2 end  -->
     </section>
     <!-- Bonus Part end -->
