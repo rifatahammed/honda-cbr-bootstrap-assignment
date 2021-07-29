@@ -1,0 +1,31 @@
+/* google font poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.top-banner {
+  background-color: #264653;
+}
+.panda-btn-buy-now {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff4b92 100%);
+  color: white;
+  border-radius: 8px;
+  padding: 9px 25px;
+  border: none;
+}
+.featured-bike img {
+  width: 100%;
+}
+.make-gray {
+  filter: grayscale(100%);
+}
+.fas {
+  color: orange;
+}
+.far {
+  color: orange;
+}
+.faq img {
+  width: 100%;
+}
