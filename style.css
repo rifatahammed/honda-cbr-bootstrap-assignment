@@ -1,11 +1,17 @@
 /* google font poppins */
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 body {
+  margin: 0;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 .top-banner {
   background-color: #264653;
+  max-width: 100%;
+}
+.top-banner img {
+  width: 100%;
 }
 .btn-purchase {
   background-color: #e76f51;
