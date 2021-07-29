@@ -29,6 +29,10 @@ body {
 .faq img {
   width: 100%;
 }
+
+/* ---------------------------------
+css for pricing part ( bonus part 2)
+-----------------------------------*/
 .rounded-lg {
   border-radius: 1rem !important;
 }
